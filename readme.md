@@ -40,10 +40,11 @@ DB_USERNAME=root
 DB_PASSWORD=
 ```
 
-5. Run migration :
+5. Run migration and seed user :
 
 ```sh
 $ php artisan migrate
+$ php artisan db:seed UserTableSeeder
 ```
 
 

@@ -19,7 +19,8 @@ class UserTableSeeder extends Seeder
             'id' => 2,
             'name' => 'demo',
             'email' => 'demo@example.com',
-            'password' => '$2y$10$ZK/ZyrV/O98wrjkZh2yCxOnaUYAZJ4nUJJYAo6SJ10LjcJ7vDdKRi'
+            'password' => '$2y$10$ZK/ZyrV/O98wrjkZh2yCxOnaUYAZJ4nUJJYAo6SJ10LjcJ7vDdKRi',
+            'admin' => 1
         ]);
     }
 }
